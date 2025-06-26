@@ -1,0 +1,232 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stardew Valley - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Stardew Valley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="character.html">Characters</a></li>
+          <li class="nav-item"><a class="nav-link" href="onderwerp.html">Onderwerp</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Introductie -->
+  <div class="container mt-5">
+    <div class="text-center">
+      <h1>Welkom in Stardew Valley</h1>
+      <p class="lead">Een rustgevend boerderijspel waar je je eigen leven opbouwt.</p>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img src="img/farm.jpg" alt="Stardew boerderij" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h3>Wat is Stardew Valley?</h3>
+        <p>Stardew Valley is een simulatiespel waarin je ontsnapt aan het drukke stadsleven om een oude boerderij van je opa nieuw leven in te blazen. Je kunt planten, vissen, mijnen, koken, trouwen en nog veel meer!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3 mt-5">
+    &copy; 2025 Stardew Valley Fansite
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- character.html -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stardew Valley - Characters</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Stardew Valley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="character.html">Characters</a></li>
+          <li class="nav-item"><a class="nav-link" href="onderwerp.html">Onderwerp</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Inleiding -->
+  <div class="container mt-4">
+    <h1>Personages</h1>
+    <p>In Stardew Valley ontmoet je veel unieke dorpsbewoners. Hier zijn een paar van hen:</p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+      <div class="col">
+        <div class="card">
+          <img src="img/abigail.png" class="card-img-top" alt="Abigail">
+          <div class="card-body">
+            <h5 class="card-title">Abigail</h5>
+            <p class="card-text">Ze houdt van avontuur, geesten en mysterieuze plekken.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/sam.png" class="card-img-top" alt="Sam">
+          <div class="card-body">
+            <h5 class="card-title">Sam</h5>
+            <p class="card-text">Een energieke jongeman die droomt van een muzikale carrière.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/leah.png" class="card-img-top" alt="Leah">
+          <div class="card-body">
+            <h5 class="card-title">Leah</h5>
+            <p class="card-text">Een kunstzinnige ziel die van de natuur houdt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contactformulier -->
+  <div class="container mt-5">
+    <h4>Contact</h4>
+    <form>
+      <div class="mb-3">
+        <label for="naam" class="form-label">Naam</label>
+        <input type="text" class="form-control" id="naam">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mailadres</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="mb-3">
+        <label for="bericht" class="form-label">Bericht</label>
+        <textarea class="form-control" id="bericht" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Verzenden</button>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- onderwerp.html -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stardew Valley - Onderwerp</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Stardew Valley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="character.html">Characters</a></li>
+          <li class="nav-item"><a class="nav-link active" href="onderwerp.html">Onderwerp</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Features -->
+  <div class="container mt-4">
+    <h1>Activiteiten en Mogelijkheden</h1>
+    <p>Stardew Valley zit vol met leuke dingen om te doen. Hier zijn een paar voorbeelden:</p>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Boerderij beheren</h5>
+            <p class="card-text">Plant gewassen, zorg voor dieren en bouw je droomboerderij.</p>
+            <span class="badge bg-success">Populair</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Mijnbouw</h5>
+            <p class="card-text">Ontdek grotten, versla monsters en verzamel waardevolle grondstoffen.</p>
+            <span class="badge bg-warning text-dark">Avontuurlijk</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Vissen</h5>
+            <p class="card-text">Ontspan aan de rivier of op zee en vang zeldzame vissen.</p>
+            <span class="badge bg-primary">Rustgevend</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contactformulier -->
+  <div class="container mt-5">
+    <h4>Contact</h4>
+    <form>
+      <div class="mb-3">
+        <label for="naam" class="form-label">Naam</label>
+        <input type="text" class="form-control" id="naam">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mailadres</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="mb-3">
+        <label for="bericht" class="form-label">Bericht</label>
+        <textarea class="form-control" id="bericht" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Verzenden</button>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
